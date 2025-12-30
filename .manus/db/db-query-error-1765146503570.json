@@ -1,0 +1,8 @@
+{
+  "query": "SELECT m.id, m.conversation_id, m.role, LEFT(m.content, 100) as content_preview, m.created_at \nFROM messages m\nWHERE m.conversation_id IN (\n  SELECT id FROM conversations ORDER BY updated_at DESC LIMIT 3\n)\nORDER BY m.conversation_id, m.created_at\nLIMIT 20;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4KLqRreKqAzJzdK.root --database c7L2WL7eHYzHLaQuuLSuK6 --execute SELECT m.id, m.conversation_id, m.role, LEFT(m.content, 100) as content_preview, m.created_at \nFROM messages m\nWHERE m.conversation_id IN (\n  SELECT id FROM conversations ORDER BY updated_at DESC LIMIT 3\n)\nORDER BY m.conversation_id, m.created_at\nLIMIT 20;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'm.conversation_id' in 'order clause'"
+  ]
+}

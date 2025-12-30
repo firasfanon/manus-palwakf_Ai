@@ -1,0 +1,52 @@
+{
+  "query": "SELECT id, conversationId, role, LEFT(content, 100) as preview, createdAt \nFROM messages \nWHERE conversationId IN (SELECT id FROM conversations ORDER BY updatedAt DESC LIMIT 3)\nORDER BY conversationId, createdAt \nLIMIT 20;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4KLqRreKqAzJzdK.root --database c7L2WL7eHYzHLaQuuLSuK6 --execute SELECT id, conversationId, role, LEFT(content, 100) as preview, createdAt \nFROM messages \nWHERE conversationId IN (SELECT id FROM conversations ORDER BY updatedAt DESC LIMIT 3)\nORDER BY conversationId, createdAt \nLIMIT 20;",
+  "rows": [
+    {
+      "id": "330001",
+      "conversationId": "510001",
+      "role": "user",
+      "preview": "ما هو وقف التخصيصات",
+      "createdAt": "2025-12-07 06:41:16"
+    },
+    {
+      "id": "330002",
+      "conversationId": "510001",
+      "role": "assistant",
+      "preview": "أهلاً بك، بصفتي مساعداً متخصصاً في الأوقاف الإسلامية في فلسطين، سأجيب على سؤالك بناءً على السياق الم",
+      "createdAt": "2025-12-07 06:41:19"
+    },
+    {
+      "id": "360001",
+      "conversationId": "540001",
+      "role": "user",
+      "preview": "ماهو الوقف ",
+      "createdAt": "2025-12-07 12:40:55"
+    },
+    {
+      "id": "360002",
+      "conversationId": "540001",
+      "role": "assistant",
+      "preview": "أهلاً بك. بصفتي مساعداً متخصصاً في الأوقاف الإسلامية في فلسطين، سأقدم لك تعريفاً دقيقاً للوقف بناءً ",
+      "createdAt": "2025-12-07 12:41:00"
+    },
+    {
+      "id": "390001",
+      "conversationId": "570001",
+      "role": "user",
+      "preview": "وقف",
+      "createdAt": "2025-12-07 22:19:44"
+    },
+    {
+      "id": "390002",
+      "conversationId": "570001",
+      "role": "assistant",
+      "preview": "الوقف (الوقف) هو مفهوم إسلامي يعني حبس الأصل وتسبيل المنفعة، وهو من أهم المؤسسات الخيرية في التاريخ ",
+      "createdAt": "2025-12-07 22:19:52"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tconversationId\trole\tpreview\tcreatedAt\n330001\t510001\tuser\tما هو وقف التخصيصات\t2025-12-07 06:41:16\n330002\t510001\tassistant\tأهلاً بك، بصفتي مساعداً متخصصاً في الأوقاف الإسلامية في فلسطين، سأجيب على سؤالك بناءً على السياق الم\t2025-12-07 06:41:19\n360001\t540001\tuser\tماهو الوقف \t2025-12-07 12:40:55\n360002\t540001\tassistant\tأهلاً بك. بصفتي مساعداً متخصصاً في الأوقاف الإسلامية في فلسطين، سأقدم لك تعريفاً دقيقاً للوقف بناءً \t2025-12-07 12:41:00\n390001\t570001\tuser\tوقف\t2025-12-07 22:19:44\n390002\t570001\tassistant\tالوقف (الوقف) هو مفهوم إسلامي يعني حبس الأصل وتسبيل المنفعة، وهو من أهم المؤسسات الخيرية في التاريخ \t2025-12-07 22:19:52\n",
+  "stderr": "",
+  "execution_time_ms": 1734
+}

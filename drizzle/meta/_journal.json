@@ -1,0 +1,118 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1764802138546,
+      "tag": "0000_organic_puma",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1764802198139,
+      "tag": "0001_tiresome_kulan_gath",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1764803392807,
+      "tag": "0002_round_ogun",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1764804825594,
+      "tag": "0003_exotic_lucky_pierre",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1764863781111,
+      "tag": "0004_free_leper_queen",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1764871411762,
+      "tag": "0005_adorable_black_bolt",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1764879903511,
+      "tag": "0006_complex_cobalt_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1764882133700,
+      "tag": "0007_fat_pet_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1764883109621,
+      "tag": "0008_sparkling_medusa",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1764886148291,
+      "tag": "0009_aspiring_lady_vermin",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1765142206437,
+      "tag": "0010_tidy_tusk",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1765143582960,
+      "tag": "0011_brown_callisto",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "5",
+      "when": 1765147603365,
+      "tag": "0012_fat_ultimates",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "5",
+      "when": 1765148767716,
+      "tag": "0013_keen_goliath",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "5",
+      "when": 1765179127855,
+      "tag": "0014_fuzzy_iron_lad",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "5",
+      "when": 1765199324878,
+      "tag": "0015_worried_sharon_carter",
+      "breakpoints": true
+    }
+  ]
+}

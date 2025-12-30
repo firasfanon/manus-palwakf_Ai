@@ -1,0 +1,15 @@
+{
+  "query": "SELECT COUNT(*) as total_conversations, \n       SUM(CASE WHEN userId != 2580001 THEN 1 ELSE 0 END) as real_conversations,\n       SUM(CASE WHEN userId = 2580001 THEN 1 ELSE 0 END) as test_conversations\nFROM conversations;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4KLqRreKqAzJzdK.root --database c7L2WL7eHYzHLaQuuLSuK6 --execute SELECT COUNT(*) as total_conversations, \n       SUM(CASE WHEN userId != 2580001 THEN 1 ELSE 0 END) as real_conversations,\n       SUM(CASE WHEN userId = 2580001 THEN 1 ELSE 0 END) as test_conversations\nFROM conversations;",
+  "rows": [
+    {
+      "total_conversations": "59",
+      "real_conversations": "49",
+      "test_conversations": "10"
+    }
+  ],
+  "messages": [],
+  "stdout": "total_conversations\treal_conversations\ttest_conversations\n59\t49\t10\n",
+  "stderr": "",
+  "execution_time_ms": 1733
+}

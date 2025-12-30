@@ -1,0 +1,15 @@
+{
+  "query": "SELECT \n  (SELECT COUNT(*) FROM conversations) as total_conversations,\n  (SELECT COUNT(*) FROM messages) as total_messages,\n  (SELECT COUNT(*) FROM messages WHERE role = 'user') as user_messages;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4KLqRreKqAzJzdK.root --database c7L2WL7eHYzHLaQuuLSuK6 --execute SELECT \n  (SELECT COUNT(*) FROM conversations) as total_conversations,\n  (SELECT COUNT(*) FROM messages) as total_messages,\n  (SELECT COUNT(*) FROM messages WHERE role = 'user') as user_messages;",
+  "rows": [
+    {
+      "total_conversations": "49",
+      "total_messages": "39",
+      "user_messages": "20"
+    }
+  ],
+  "messages": [],
+  "stdout": "total_conversations\ttotal_messages\tuser_messages\n49\t39\t20\n",
+  "stderr": "",
+  "execution_time_ms": 1513
+}

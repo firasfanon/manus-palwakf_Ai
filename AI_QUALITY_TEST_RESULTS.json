@@ -1,0 +1,211 @@
+{
+  "date": "2025-12-08T06:50:07.807Z",
+  "summary": {
+    "totalQuestions": 20,
+    "foundQuestions": 7,
+    "avgAccuracy": 10.25,
+    "avgSources": 1
+  },
+  "categoryAnalysis": [
+    {
+      "category": "law",
+      "accuracy": 5,
+      "found": 2,
+      "total": 5
+    },
+    {
+      "category": "jurisprudence",
+      "accuracy": 16,
+      "found": 3,
+      "total": 5
+    },
+    {
+      "category": "historical",
+      "accuracy": 0,
+      "found": 0,
+      "total": 5
+    },
+    {
+      "category": "administrative",
+      "accuracy": 20,
+      "found": 2,
+      "total": 5
+    }
+  ],
+  "details": [
+    {
+      "question": "ما هي أنواع الأراضي في قانون الأراضي العثماني؟",
+      "category": "law",
+      "found": true,
+      "accuracy": 0,
+      "sources": 1,
+      "references": [
+        "الفقه الحنفي في الوقف - بدائع الصنائع"
+      ]
+    },
+    {
+      "question": "ما هي شروط صحة الوقف حسب قانون الأوقاف الفلسطيني؟",
+      "category": "law",
+      "found": true,
+      "accuracy": 25,
+      "sources": 4,
+      "references": [
+        "الفقه الحنفي في الوقف - بدائع الصنائع",
+        "الفقه الحنفي في الوقف - رد المحتار على الدر المختار",
+        "قانون الأراضي العثماني - المادة 1: تعريف الأراضي",
+        "قانون الأراضي العثماني - المادة 3: الأراضي الأميرية"
+      ]
+    },
+    {
+      "question": "ما الفرق بين الوقف الخيري والوقف الذري؟",
+      "category": "law",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "ما هي صلاحيات وزارة الأوقاف حسب القانون؟",
+      "category": "law",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "هل يجوز استبدال الوقف؟ وما هي الشروط؟",
+      "category": "law",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "ما هو تعريف الوقف في الفقه الإسلامي؟",
+      "category": "jurisprudence",
+      "found": true,
+      "accuracy": 80,
+      "sources": 1,
+      "references": [
+        "مجلة الأحكام العدلية - المادة 1: تعريف الوقف"
+      ]
+    },
+    {
+      "question": "ما هو رأي أبي حنيفة في ملكية الوقف؟",
+      "category": "jurisprudence",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "ما هي شروط صحة الوقف في المذهب الحنفي؟",
+      "category": "jurisprudence",
+      "found": true,
+      "accuracy": 0,
+      "sources": 4,
+      "references": [
+        "الفقه الحنفي في الوقف - بدائع الصنائع",
+        "الفقه الحنفي في الوقف - رد المحتار على الدر المختار",
+        "قانون الأراضي العثماني - المادة 1: تعريف الأراضي",
+        "قانون الأراضي العثماني - المادة 3: الأراضي الأميرية"
+      ]
+    },
+    {
+      "question": "هل يجوز وقف المنقول في الفقه الحنفي؟",
+      "category": "jurisprudence",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "ما حكم الوقف في مرض الموت؟",
+      "category": "jurisprudence",
+      "found": true,
+      "accuracy": 0,
+      "sources": 5,
+      "references": [
+        "الجزء الثاني: شروط صحة الوقف",
+        "الجزء السابع: مجلة الأحكام العدلية العثمانية",
+        "الفقه الحنفي في الوقف - بدائع الصنائع",
+        "شروط الوقف في الفقه الإسلامي",
+        "أنواع الأوقاف في الفقه والقانون"
+      ]
+    },
+    {
+      "question": "ما هو أقدم وقف في العالم الإسلامي؟",
+      "category": "historical",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "متى تم إنشاء أول وزارة للأوقاف في فلسطين؟",
+      "category": "historical",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "ما هي أهم الأوقاف على المسجد الأقصى؟",
+      "category": "historical",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "من هو مصطفى آغا وما هي حجة وقفه؟",
+      "category": "historical",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "كيف كانت إدارة الأوقاف في العهد العثماني؟",
+      "category": "historical",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "ما هي مهام لجان رعاية المساجد؟",
+      "category": "administrative",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "ما هي شروط التسجيل لموسم الحج والعمرة؟",
+      "category": "administrative",
+      "found": true,
+      "accuracy": 25,
+      "sources": 4,
+      "references": [
+        "الفقه الحنفي في الوقف - بدائع الصنائع",
+        "الفقه الحنفي في الوقف - رد المحتار على الدر المختار",
+        "قانون الأراضي العثماني - المادة 1: تعريف الأراضي",
+        "قانون الأراضي العثماني - المادة 3: الأراضي الأميرية"
+      ]
+    },
+    {
+      "question": "ما هي التعديلات الأخيرة على قانون الأوقاف؟",
+      "category": "administrative",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    },
+    {
+      "question": "ما هي برامج وزارة الأوقاف الحالية؟",
+      "category": "administrative",
+      "found": true,
+      "accuracy": 75,
+      "sources": 1,
+      "references": [
+        "دور الأوقاف في التنمية المستدامة"
+      ]
+    },
+    {
+      "question": "كيف يتم إدارة الوقف الذري؟",
+      "category": "administrative",
+      "found": false,
+      "accuracy": 0,
+      "sources": 0
+    }
+  ]
+}
